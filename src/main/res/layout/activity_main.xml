@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.andy.circleview1.MainActivity">
+
+    <com.andy.circleview1.CircleView
+        android:focusable="true"
+        android:id="@+id/circle_1"
+        app:progress_location="top"
+        app:progress_paint_color="#0000ff"
+        app:progress_paint_width="10dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <com.andy.circleview1.TimeCircleView
+        android:focusable="true"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/circle_2"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+</LinearLayout>

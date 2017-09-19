@@ -1,3 +1,2 @@
-# CustomViewTest
-practice custom view
-//first push
+#  倒计时view
+高仿一点资讯倒计时广告
